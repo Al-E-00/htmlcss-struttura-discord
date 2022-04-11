@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header>.container {
+header>.container-hd {
     background-color: rgb(195, 195, 195);
     min-height: 60px;
     display: flex;
@@ -12,7 +12,7 @@ header>.container {
     justify-content: center;
 }
 
-.section {
+.section-nav {
     width: 960px;
     display: flex;
     align-items: center;
@@ -30,6 +30,7 @@ header>.container {
     border: 2px dotted black;
     height: 95%;
     width: 90%;
+    max-width: 960px;
     display: flex;
 }
 
@@ -67,3 +68,54 @@ header>.second-container {
     height: 75%;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dotted red;
+    width: 80%;
+    height: 90%;
+}
+
+.first-block {
+    background-color: rgb(71, 126, 240);
+    border: 2px dotted blue;
+    width: 63%;
+    height: 90%;
+}
+
+.second-block {
+    background-color: rgb(233, 183, 220);
+    border: 2px dotted blue;
+    width: 33%;
+    height: 90%;
+}
+
+.background-grey {
+    background-color: rgb(243, 243, 243);
+}
+
+.inverted-section {
+    flex-direction: row-reverse;
+}
+
+.big-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1200px;
+}
+
+.section-big-container {
+    background-color: rgb(121, 168, 114);
+    border: 2px dotted red;
+    height: 95%;
+    width: 80%;
+}
