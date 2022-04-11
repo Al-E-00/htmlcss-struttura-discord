@@ -119,3 +119,50 @@ header>.second-container {
     height: 95%;
     width: 80%;
 }
+
+.footer-container {
+    background-color: rgb(41, 43, 46);
+    height: 600px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 90%;
+
+}
+
+.footer-section{
+    border: 2px dotted white;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.footer-section .block-right {
+    border: 2px dotted white;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(216, 122, 122);
+}
+
+.footer-section .little-blocks {
+    border: 2px dotted white;
+    height: 100%;
+    width: calc(100% / 4);
+    background-color: rgb(104, 160, 182);
+}
+
+.horizontal-block {
+    background-color: rgb(167, 242, 234);
+    height: 25%;
+    border: 2px dotted white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
